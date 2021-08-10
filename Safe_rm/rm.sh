@@ -1,4 +1,5 @@
 # Protection from accidental rm
+# TODO: Find way to support file names with space
 function rm ()
 {
   local real_rm="/usr/bin/rm"
