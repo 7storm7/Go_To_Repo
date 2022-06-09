@@ -10,7 +10,7 @@
 function __usage()
 {
 cat << EOF
-usage: jumpback <folder name>
+usage: cdup <folder name>
 -c    | --containing-folder      (Optional)     Go to containing folder
 -s    | --silent                 (Optional)     Go to folder without confirmation
 -h    | --help                                  Brings up this menu
@@ -44,7 +44,7 @@ function __ask_for_permission ()
 }
 
 
-function jumpback () {
+function cdup () {
     local target_folder
     local containing_folder
     local silent
