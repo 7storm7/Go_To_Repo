@@ -3,6 +3,10 @@
 #
 # Arguments: $1: path of the repo
 # Output: git log of the repo
+# Usage:
+#   git log /my/git/repo/path/
+#   git status /my/git/repo/path/
+
 function git() {
 #   set -xv
     if [ ! "$2" == "" ]; then
